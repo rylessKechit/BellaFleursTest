@@ -1,0 +1,14 @@
+{
+  "name": "Bella Fleurs",
+  "short_name": "Bella Fleurs",
+  "description": "Fleuriste à Brétigny-sur-Orge",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "icons": [],
+  "categories": ["lifestyle", "shopping"],
+  "lang": "fr",
+  "dir": "ltr",
+  "orientation": "portrait-primary"
+}
