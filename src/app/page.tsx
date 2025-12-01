@@ -9,6 +9,7 @@ import ContactSection from '@/components/home/ContactSection';
 import Image from 'next/image';
 import ProductOfWeekPopup from '@/components/ProductOfWeekPopup';
 import type { Metadata } from 'next';
+import ChristmasDecoration from '@/components/christmas/ChristmasDecoration';
 
 export const metadata: Metadata = {
   title: {
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'fr_FR',
+    locale: 'fr-FR',
     url: 'https://bella-fleurs.fr',
     title: 'Bella Fleurs - Fleuriste Brétigny-sur-Orge depuis 20 ans',
     description: 'Artisan fleuriste à Brétigny-sur-Orge. Bouquets sur mesure, compositions florales, livraison 24h Essonnes.',
@@ -88,6 +89,7 @@ export default function Home() {
 
       {/* Contenu par-dessus le background */}
       <div className="relative z-10">
+        {/* Spacer pour compenser la bannière */}
         <Header />
         <main className="min-h-screen">
           <HeroSection />
@@ -98,6 +100,7 @@ export default function Home() {
           <ContactSection />
         </main>
         <Footer />
+        <ChristmasDecoration density="medium" />
       </div>
       <ProductOfWeekPopup />
     </div>
